@@ -3,7 +3,7 @@ import time
 import requests
 import random
 
-vk = vk_api.VkApi(token="65ef388598665736f67f917f93b7c8b4e03312698ef52ba3c752b47a91adc8c3c8bc474da67f12bcda891")
+vk = vk_api.VkApi(token="enter your token here")
 
 vk._auth_token()
 
