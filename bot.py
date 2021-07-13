@@ -106,7 +106,6 @@ def mapta(name, id):
     vk.method("messages.send",
               {"peer_id": id, "message": "успех", "attachment": f'photo{c["owner_id"]}_{c["id"]}'})
 
-
 def translateenru(slovo, en):
     if en == 1:
         response = requests.get(
