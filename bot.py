@@ -7,7 +7,6 @@ vk = vk_api.VkApi(token="enter your token here")
 
 vk._auth_token()
 
-
 def photo(user_id):
     print(1)
     a = vk.method("photos.getMessagesUploadServer")
